@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   FunCollectionViewDatas.plist
+   FollowMii
+
+   Created by 辛忠翰 on 2017/7/24.
+   Copyright (c) 2017年 辛忠翰. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>title</key>
+            <string>DenaliQQ National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>photo</key>
+            <string>Denali</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>photo</key>
+            <string>Denali</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Kenai Fjords</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>2</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>photo</key>
+            <string>Joshua Tree</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>3</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>photo</key>
+            <string>Sequoia</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>4</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Yosemite</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>5</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Great Sand Dunes</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>6</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Mesa Verde</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>7</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Rocky Mountains</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>8</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Arches</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>9</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Bryce Canyon</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>10</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Zion</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>11</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Mount Rainier</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>12</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>North Cascades</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>13</integer>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Denali National Park</string>
+            <key>subtitle</key>
+            <string>Stray walk!!</string>
+            <key>description</key>
+            <string>This journey will take you to the spot of Oscar Award movie - a City of Sadness - first, then go for a bowl of the very famous local food – taro balls. </string>
+            <key>startTime</key>
+            <string>14:00</string>
+            <key>photo</key>
+            <string>Olympic</string>
+            <key>money</key>
+            <integer>100</integer>
+            <key>distanceTime</key>
+            <real>1.5</real>
+            <key>state</key>
+            <string>Taiwan</string>
+            <key>index</key>
+            <integer>14</integer>
+        </dict>
+
+
+    </array>
+</plist>
+
+
+
+
+
+
+
+
+

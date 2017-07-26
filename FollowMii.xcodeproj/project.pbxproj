@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821BC6EF1F2286E000FAB8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC6EE1F2286E000FAB8AD /* AppDelegate.swift */; };
+		821BC6F41F2286E000FAB8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821BC6F21F2286E000FAB8AD /* Main.storyboard */; };
+		821BC6F61F2286E000FAB8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821BC6F51F2286E000FAB8AD /* Assets.xcassets */; };
+		821BC6F91F2286E000FAB8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821BC6F71F2286E000FAB8AD /* LaunchScreen.storyboard */; };
+		821BC7041F2286E000FAB8AD /* FollowMiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC7031F2286E000FAB8AD /* FollowMiiTests.swift */; };
+		821BC70F1F2286E000FAB8AD /* FollowMiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC70E1F2286E000FAB8AD /* FollowMiiUITests.swift */; };
+		821BC71D1F22AA8000FAB8AD /* CheckList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC71C1F22AA8000FAB8AD /* CheckList.swift */; };
+		821BC71F1F22AC0F00FAB8AD /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC71E1F22AC0F00FAB8AD /* CheckListViewController.swift */; };
+		821BC7211F22AFB400FAB8AD /* CheckListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC7201F22AFB400FAB8AD /* CheckListTableViewCell.swift */; };
+		821BC7251F22CDB300FAB8AD /* CheckLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC7241F22CDB300FAB8AD /* CheckLists.swift */; };
+		821BC7271F22D1F400FAB8AD /* FunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC7261F22D1F400FAB8AD /* FunViewController.swift */; };
+		821BC7291F22EC8300FAB8AD /* FunBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC7281F22EC8300FAB8AD /* FunBanner.swift */; };
+		821BC72B1F22FD4900FAB8AD /* FunCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC72A1F22FD4900FAB8AD /* FunCollectionViewCell.swift */; };
+		82DAB8151F25F5BA0084009F /* FunCollectionDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAB8141F25F5BA0084009F /* FunCollectionDataSources.swift */; };
+		82DAB8171F25F5D80084009F /* FunCollectionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAB8161F25F5D80084009F /* FunCollectionViewData.swift */; };
+		82DAB8191F25F73F0084009F /* FunCollectionViewDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82DAB8181F25F73F0084009F /* FunCollectionViewDatas.plist */; };
+		82DAB8221F27724F0084009F /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAB8211F27724F0084009F /* GradiantView.swift */; };
+		82DAB8241F2779220084009F /* FunCollectionViewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAB8231F2779220084009F /* FunCollectionViewItemViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		821BC7001F2286E000FAB8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821BC6E31F2286E000FAB8AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821BC6EA1F2286E000FAB8AD;
+			remoteInfo = FollowMii;
+		};
+		821BC70B1F2286E000FAB8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821BC6E31F2286E000FAB8AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821BC6EA1F2286E000FAB8AD;
+			remoteInfo = FollowMii;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821BC6EB1F2286E000FAB8AD /* FollowMii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FollowMii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821BC6EE1F2286E000FAB8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		821BC6F31F2286E000FAB8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		821BC6F51F2286E000FAB8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		821BC6F81F2286E000FAB8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		821BC6FA1F2286E000FAB8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821BC6FF1F2286E000FAB8AD /* FollowMiiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollowMiiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821BC7031F2286E000FAB8AD /* FollowMiiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowMiiTests.swift; sourceTree = "<group>"; };
+		821BC7051F2286E000FAB8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821BC70A1F2286E000FAB8AD /* FollowMiiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollowMiiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821BC70E1F2286E000FAB8AD /* FollowMiiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowMiiUITests.swift; sourceTree = "<group>"; };
+		821BC7101F2286E000FAB8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821BC71C1F22AA8000FAB8AD /* CheckList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckList.swift; sourceTree = "<group>"; };
+		821BC71E1F22AC0F00FAB8AD /* CheckListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
+		821BC7201F22AFB400FAB8AD /* CheckListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListTableViewCell.swift; sourceTree = "<group>"; };
+		821BC7241F22CDB300FAB8AD /* CheckLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckLists.swift; sourceTree = "<group>"; };
+		821BC7261F22D1F400FAB8AD /* FunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunViewController.swift; sourceTree = "<group>"; };
+		821BC7281F22EC8300FAB8AD /* FunBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunBanner.swift; sourceTree = "<group>"; };
+		821BC72A1F22FD4900FAB8AD /* FunCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunCollectionViewCell.swift; sourceTree = "<group>"; };
+		82DAB8141F25F5BA0084009F /* FunCollectionDataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunCollectionDataSources.swift; sourceTree = "<group>"; };
+		82DAB8161F25F5D80084009F /* FunCollectionViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunCollectionViewData.swift; sourceTree = "<group>"; };
+		82DAB8181F25F73F0084009F /* FunCollectionViewDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FunCollectionViewDatas.plist; sourceTree = "<group>"; };
+		82DAB8211F27724F0084009F /* GradiantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
+		82DAB8231F2779220084009F /* FunCollectionViewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunCollectionViewItemViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821BC6E81F2286E000FAB8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821BC6FC1F2286E000FAB8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821BC7071F2286E000FAB8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821BC6E21F2286E000FAB8AD = {
+			isa = PBXGroup;
+			children = (
+				821BC6ED1F2286E000FAB8AD /* FollowMii */,
+				821BC7021F2286E000FAB8AD /* FollowMiiTests */,
+				821BC70D1F2286E000FAB8AD /* FollowMiiUITests */,
+				821BC6EC1F2286E000FAB8AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		821BC6EC1F2286E000FAB8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821BC6EB1F2286E000FAB8AD /* FollowMii.app */,
+				821BC6FF1F2286E000FAB8AD /* FollowMiiTests.xctest */,
+				821BC70A1F2286E000FAB8AD /* FollowMiiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821BC6ED1F2286E000FAB8AD /* FollowMii */ = {
+			isa = PBXGroup;
+			children = (
+				821BC6EE1F2286E000FAB8AD /* AppDelegate.swift */,
+				82DAB8201F2772220084009F /* ModelView */,
+				821BC6F21F2286E000FAB8AD /* Main.storyboard */,
+				82DAB8111F25F3930084009F /* Schedule */,
+				82DAB8121F25F3A60084009F /* Fun */,
+				82DAB8251F27794B0084009F /* CollectionViewItem */,
+				821BC6F51F2286E000FAB8AD /* Assets.xcassets */,
+				821BC6F71F2286E000FAB8AD /* LaunchScreen.storyboard */,
+				821BC6FA1F2286E000FAB8AD /* Info.plist */,
+			);
+			path = FollowMii;
+			sourceTree = "<group>";
+		};
+		821BC7021F2286E000FAB8AD /* FollowMiiTests */ = {
+			isa = PBXGroup;
+			children = (
+				821BC7031F2286E000FAB8AD /* FollowMiiTests.swift */,
+				821BC7051F2286E000FAB8AD /* Info.plist */,
+			);
+			path = FollowMiiTests;
+			sourceTree = "<group>";
+		};
+		821BC70D1F2286E000FAB8AD /* FollowMiiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				821BC70E1F2286E000FAB8AD /* FollowMiiUITests.swift */,
+				821BC7101F2286E000FAB8AD /* Info.plist */,
+			);
+			path = FollowMiiUITests;
+			sourceTree = "<group>";
+		};
+		82DAB8111F25F3930084009F /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				82DAB8131F25F3C20084009F /* Model */,
+				82DAB81F1F2768440084009F /* ViewController */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		82DAB8121F25F3A60084009F /* Fun */ = {
+			isa = PBXGroup;
+			children = (
+				82DAB81B1F2767EC0084009F /* CollectionView */,
+				82DAB81A1F2767E10084009F /* Banner */,
+			);
+			name = Fun;
+			sourceTree = "<group>";
+		};
+		82DAB8131F25F3C20084009F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				821BC71C1F22AA8000FAB8AD /* CheckList.swift */,
+				821BC7241F22CDB300FAB8AD /* CheckLists.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		82DAB81A1F2767E10084009F /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				82DAB81E1F2768270084009F /* Model */,
+			);
+			name = Banner;
+			sourceTree = "<group>";
+		};
+		82DAB81B1F2767EC0084009F /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				82DAB81D1F2768130084009F /* Model */,
+				82DAB81C1F2768050084009F /* ViewController */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		82DAB81C1F2768050084009F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				821BC72A1F22FD4900FAB8AD /* FunCollectionViewCell.swift */,
+				821BC7261F22D1F400FAB8AD /* FunViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		82DAB81D1F2768130084009F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82DAB8141F25F5BA0084009F /* FunCollectionDataSources.swift */,
+				82DAB8181F25F73F0084009F /* FunCollectionViewDatas.plist */,
+				82DAB8161F25F5D80084009F /* FunCollectionViewData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		82DAB81E1F2768270084009F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				821BC7281F22EC8300FAB8AD /* FunBanner.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		82DAB81F1F2768440084009F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				821BC7201F22AFB400FAB8AD /* CheckListTableViewCell.swift */,
+				821BC71E1F22AC0F00FAB8AD /* CheckListViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		82DAB8201F2772220084009F /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				82DAB8211F27724F0084009F /* GradiantView.swift */,
+			);
+			name = ModelView;
+			sourceTree = "<group>";
+		};
+		82DAB8251F27794B0084009F /* CollectionViewItem */ = {
+			isa = PBXGroup;
+			children = (
+				82DAB8231F2779220084009F /* FunCollectionViewItemViewController.swift */,
+			);
+			name = CollectionViewItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		821BC6EA1F2286E000FAB8AD /* FollowMii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821BC7131F2286E000FAB8AD /* Build configuration list for PBXNativeTarget "FollowMii" */;
+			buildPhases = (
+				821BC6E71F2286E000FAB8AD /* Sources */,
+				821BC6E81F2286E000FAB8AD /* Frameworks */,
+				821BC6E91F2286E000FAB8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FollowMii;
+			productName = FollowMii;
+			productReference = 821BC6EB1F2286E000FAB8AD /* FollowMii.app */;
+			productType = "com.apple.product-type.application";
+		};
+		821BC6FE1F2286E000FAB8AD /* FollowMiiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821BC7161F2286E000FAB8AD /* Build configuration list for PBXNativeTarget "FollowMiiTests" */;
+			buildPhases = (
+				821BC6FB1F2286E000FAB8AD /* Sources */,
+				821BC6FC1F2286E000FAB8AD /* Frameworks */,
+				821BC6FD1F2286E000FAB8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821BC7011F2286E000FAB8AD /* PBXTargetDependency */,
+			);
+			name = FollowMiiTests;
+			productName = FollowMiiTests;
+			productReference = 821BC6FF1F2286E000FAB8AD /* FollowMiiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		821BC7091F2286E000FAB8AD /* FollowMiiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821BC7191F2286E000FAB8AD /* Build configuration list for PBXNativeTarget "FollowMiiUITests" */;
+			buildPhases = (
+				821BC7061F2286E000FAB8AD /* Sources */,
+				821BC7071F2286E000FAB8AD /* Frameworks */,
+				821BC7081F2286E000FAB8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821BC70C1F2286E000FAB8AD /* PBXTargetDependency */,
+			);
+			name = FollowMiiUITests;
+			productName = FollowMiiUITests;
+			productReference = 821BC70A1F2286E000FAB8AD /* FollowMiiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821BC6E31F2286E000FAB8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "辛忠翰";
+				TargetAttributes = {
+					821BC6EA1F2286E000FAB8AD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZY929FY943;
+						ProvisioningStyle = Automatic;
+					};
+					821BC6FE1F2286E000FAB8AD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZY929FY943;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 821BC6EA1F2286E000FAB8AD;
+					};
+					821BC7091F2286E000FAB8AD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZY929FY943;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 821BC6EA1F2286E000FAB8AD;
+					};
+				};
+			};
+			buildConfigurationList = 821BC6E61F2286E000FAB8AD /* Build configuration list for PBXProject "FollowMii" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 821BC6E21F2286E000FAB8AD;
+			productRefGroup = 821BC6EC1F2286E000FAB8AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821BC6EA1F2286E000FAB8AD /* FollowMii */,
+				821BC6FE1F2286E000FAB8AD /* FollowMiiTests */,
+				821BC7091F2286E000FAB8AD /* FollowMiiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821BC6E91F2286E000FAB8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821BC6F91F2286E000FAB8AD /* LaunchScreen.storyboard in Resources */,
+				821BC6F61F2286E000FAB8AD /* Assets.xcassets in Resources */,
+				821BC6F41F2286E000FAB8AD /* Main.storyboard in Resources */,
+				82DAB8191F25F73F0084009F /* FunCollectionViewDatas.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821BC6FD1F2286E000FAB8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821BC7081F2286E000FAB8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821BC6E71F2286E000FAB8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DAB8151F25F5BA0084009F /* FunCollectionDataSources.swift in Sources */,
+				821BC72B1F22FD4900FAB8AD /* FunCollectionViewCell.swift in Sources */,
+				82DAB8171F25F5D80084009F /* FunCollectionViewData.swift in Sources */,
+				821BC7291F22EC8300FAB8AD /* FunBanner.swift in Sources */,
+				821BC7271F22D1F400FAB8AD /* FunViewController.swift in Sources */,
+				821BC7211F22AFB400FAB8AD /* CheckListTableViewCell.swift in Sources */,
+				82DAB8241F2779220084009F /* FunCollectionViewItemViewController.swift in Sources */,
+				821BC7251F22CDB300FAB8AD /* CheckLists.swift in Sources */,
+				821BC71F1F22AC0F00FAB8AD /* CheckListViewController.swift in Sources */,
+				821BC71D1F22AA8000FAB8AD /* CheckList.swift in Sources */,
+				82DAB8221F27724F0084009F /* GradiantView.swift in Sources */,
+				821BC6EF1F2286E000FAB8AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821BC6FB1F2286E000FAB8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821BC7041F2286E000FAB8AD /* FollowMiiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821BC7061F2286E000FAB8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821BC70F1F2286E000FAB8AD /* FollowMiiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821BC7011F2286E000FAB8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821BC6EA1F2286E000FAB8AD /* FollowMii */;
+			targetProxy = 821BC7001F2286E000FAB8AD /* PBXContainerItemProxy */;
+		};
+		821BC70C1F2286E000FAB8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821BC6EA1F2286E000FAB8AD /* FollowMii */;
+			targetProxy = 821BC70B1F2286E000FAB8AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		821BC6F21F2286E000FAB8AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821BC6F31F2286E000FAB8AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		821BC6F71F2286E000FAB8AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821BC6F81F2286E000FAB8AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		821BC7111F2286E000FAB8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		821BC7121F2286E000FAB8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		821BC7141F2286E000FAB8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZY929FY943;
+				INFOPLIST_FILE = FollowMii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cool.app.com.FollowMii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		821BC7151F2286E000FAB8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZY929FY943;
+				INFOPLIST_FILE = FollowMii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cool.app.com.FollowMii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		821BC7171F2286E000FAB8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZY929FY943;
+				INFOPLIST_FILE = FollowMiiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cool.app.com.FollowMiiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FollowMii.app/FollowMii";
+			};
+			name = Debug;
+		};
+		821BC7181F2286E000FAB8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZY929FY943;
+				INFOPLIST_FILE = FollowMiiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cool.app.com.FollowMiiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FollowMii.app/FollowMii";
+			};
+			name = Release;
+		};
+		821BC71A1F2286E000FAB8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZY929FY943;
+				INFOPLIST_FILE = FollowMiiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cool.app.com.FollowMiiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FollowMii;
+			};
+			name = Debug;
+		};
+		821BC71B1F2286E000FAB8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZY929FY943;
+				INFOPLIST_FILE = FollowMiiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cool.app.com.FollowMiiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FollowMii;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		821BC6E61F2286E000FAB8AD /* Build configuration list for PBXProject "FollowMii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821BC7111F2286E000FAB8AD /* Debug */,
+				821BC7121F2286E000FAB8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821BC7131F2286E000FAB8AD /* Build configuration list for PBXNativeTarget "FollowMii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821BC7141F2286E000FAB8AD /* Debug */,
+				821BC7151F2286E000FAB8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821BC7161F2286E000FAB8AD /* Build configuration list for PBXNativeTarget "FollowMiiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821BC7171F2286E000FAB8AD /* Debug */,
+				821BC7181F2286E000FAB8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821BC7191F2286E000FAB8AD /* Build configuration list for PBXNativeTarget "FollowMiiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821BC71A1F2286E000FAB8AD /* Debug */,
+				821BC71B1F2286E000FAB8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821BC6E31F2286E000FAB8AD /* Project object */;
+}
