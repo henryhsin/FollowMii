@@ -7,8 +7,8 @@
 //
 
 import Foundation
-class CheckList {
-    
+class CheckList: CheckListProtocol {
+    typealias SomeEnumType = Weather
     var date: String = ""
     var title: String = ""
     var subtitle: String = ""
@@ -29,4 +29,16 @@ class CheckList {
         self.background = bg
         self.subtitle = subtitle
     }
+}
+
+protocol CheckListProtocol {
+    var date: String {get set}
+    var title: String {get set}
+    var subtitle: String {get set}
+    associatedtype SomeEnumType
+    var todayWeather: SomeEnumType {get set}
+    var time: String {get set}
+    var temperature: String {get set}
+    var background: String {get set}
+
 }

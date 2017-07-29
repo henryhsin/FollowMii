@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class FunCollectionViewData{
+class FunCollectionViewData: FunCollectionViewDataProtocol{
     var title: String
     var money: Int
     var startTime: String
@@ -28,4 +28,16 @@ class FunCollectionViewData{
         self.description = description
         self.subtitle = subtitle
     }
+}
+
+protocol FunCollectionViewDataProtocol {
+    var title: String {set get}
+    var money: Int {set get}
+    var startTime: String {set get}
+    var distanceTime: Float {set get}
+    var photo: String {set get}
+    var index: Int {set get}
+    var state: String {set get}
+    var subtitle: String {set get}
+    var description: String {set get}
 }

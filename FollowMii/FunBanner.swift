@@ -7,13 +7,14 @@
 //
 
 import Foundation
-class FunBanner {
-    var title: String = ""
-    var subtitle: String = ""
-    var background: String = ""
-    init(title: String, subtitle: String, background: String) {
-        self.title = title
-        self.subtitle = subtitle
-        self.background = background
-    }
+struct FunBanner: FunBannerProtocol {
+    var title: String
+    var subtitle: String
+    var background: String
+}
+
+protocol FunBannerProtocol {
+    var title: String {get set}
+    var subtitle: String {get set}
+    var background: String {get set}
 }

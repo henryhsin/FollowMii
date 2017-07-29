@@ -7,7 +7,8 @@
 //
 
 import Foundation
-class FunCollectionDataSources {
+class FunCollectionDataSources: FunCollectionDataSourcesProtocol {
+
     var datas: [FunCollectionViewData] = []
     var immutableDatas: [FunCollectionViewData] = []
     var sections: [String] = []
@@ -22,7 +23,7 @@ class FunCollectionDataSources {
         datas = loadDatasFromDisk()
         immutableDatas = datas
     }
-    private func loadDatasFromDisk() -> [FunCollectionViewData] {
+    internal func loadDatasFromDisk() -> [FunCollectionViewData] {
         sections.removeAll(keepingCapacity: false)
         if let path = Bundle.main.path(forResource: "FunCollectionViewDatas", ofType: "plist"){
             if let dictArray = NSArray(contentsOfFile: path){
@@ -51,7 +52,7 @@ class FunCollectionDataSources {
         return []
     }
     
-    private func datasForSection(index: Int) -> [FunCollectionViewData]{
+    internal func datasForSection(index: Int) -> [FunCollectionViewData]{
         let section = sections[index]
         let datasInSection = datas.filter { (data: FunCollectionViewData) -> Bool in
             return data.state == section
@@ -65,7 +66,7 @@ class FunCollectionDataSources {
     }
     
     //找到indexPath的絕對路徑(數目= 經過section個數+這個section底下的item個數)
-    private func absoluteIndexForIndexPath(indexPath: IndexPath) -> Int{
+    internal func absoluteIndexForIndexPath(indexPath: IndexPath) -> Int{
         var index = 0
         for i in 0 ..< indexPath.section {
             index += numberOfDatasInSections(index: i)
@@ -127,4 +128,20 @@ class FunCollectionDataSources {
         }
         return nil
     }
+}
+
+protocol FunCollectionDataSourcesProtocol{
+    var datas: [FunCollectionViewData] {get set}
+    var immutableDatas: [FunCollectionViewData] {get set}
+    var sections: [String] {get set}
+    var count: Int {get}
+    var numberOfSection: Int {get}
+    func loadDatasFromDisk() -> [FunCollectionViewData]
+    func datasForSection(index: Int) -> [FunCollectionViewData]
+    func numberOfDatasInSections(index: Int) -> Int
+    func absoluteIndexForIndexPath(indexPath: IndexPath) -> Int
+    func deleteItemAtIndexPaths(indexPaths: [IndexPath])
+    func indexPathForData(data: FunCollectionViewData) -> IndexPath
+    func dataForItemAtIndexPath(indexPath: IndexPath) -> FunCollectionViewData?
+    func titleForSectionAtIndexPath(indexPath: IndexPath) -> String?
 }
