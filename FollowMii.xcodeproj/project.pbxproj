@@ -20,6 +20,11 @@
 		821BC7271F22D1F400FAB8AD /* FunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC7261F22D1F400FAB8AD /* FunViewController.swift */; };
 		821BC7291F22EC8300FAB8AD /* FunBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC7281F22EC8300FAB8AD /* FunBanner.swift */; };
 		821BC72B1F22FD4900FAB8AD /* FunCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BC72A1F22FD4900FAB8AD /* FunCollectionViewCell.swift */; };
+		828772821F4EACB800E4CFB4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828772811F4EACB800E4CFB4 /* MapViewController.swift */; };
+		828772871F4F605400E4CFB4 /* location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 828772861F4F605400E4CFB4 /* location.gpx */; };
+		8287728A1F4F622800E4CFB4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828772891F4F622800E4CFB4 /* MapKit.framework */; };
+		8287728C1F4FAF5300E4CFB4 /* FunMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8287728B1F4FAF5300E4CFB4 /* FunMapViewController.swift */; };
+		8287728F1F4FD20000E4CFB4 /* MyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8287728E1F4FD1FF00E4CFB4 /* MyLocation.swift */; };
 		82DAB8151F25F5BA0084009F /* FunCollectionDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAB8141F25F5BA0084009F /* FunCollectionDataSources.swift */; };
 		82DAB8171F25F5D80084009F /* FunCollectionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAB8161F25F5D80084009F /* FunCollectionViewData.swift */; };
 		82DAB8191F25F73F0084009F /* FunCollectionViewDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82DAB8181F25F73F0084009F /* FunCollectionViewDatas.plist */; };
@@ -64,6 +69,11 @@
 		821BC7261F22D1F400FAB8AD /* FunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunViewController.swift; sourceTree = "<group>"; };
 		821BC7281F22EC8300FAB8AD /* FunBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunBanner.swift; sourceTree = "<group>"; };
 		821BC72A1F22FD4900FAB8AD /* FunCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunCollectionViewCell.swift; sourceTree = "<group>"; };
+		828772811F4EACB800E4CFB4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		828772861F4F605400E4CFB4 /* location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = location.gpx; sourceTree = "<group>"; };
+		828772891F4F622800E4CFB4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8287728B1F4FAF5300E4CFB4 /* FunMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunMapViewController.swift; sourceTree = "<group>"; };
+		8287728E1F4FD1FF00E4CFB4 /* MyLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocation.swift; sourceTree = "<group>"; };
 		82DAB8141F25F5BA0084009F /* FunCollectionDataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunCollectionDataSources.swift; sourceTree = "<group>"; };
 		82DAB8161F25F5D80084009F /* FunCollectionViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunCollectionViewData.swift; sourceTree = "<group>"; };
 		82DAB8181F25F73F0084009F /* FunCollectionViewDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FunCollectionViewDatas.plist; sourceTree = "<group>"; };
@@ -76,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8287728A1F4F622800E4CFB4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +114,7 @@
 				821BC7021F2286E000FAB8AD /* FollowMiiTests */,
 				821BC70D1F2286E000FAB8AD /* FollowMiiUITests */,
 				821BC6EC1F2286E000FAB8AD /* Products */,
+				828772881F4F622800E4CFB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,9 +136,9 @@
 				821BC6F21F2286E000FAB8AD /* Main.storyboard */,
 				82DAB8111F25F3930084009F /* Schedule */,
 				82DAB8121F25F3A60084009F /* Fun */,
-				82DAB8251F27794B0084009F /* CollectionViewItem */,
 				821BC6F51F2286E000FAB8AD /* Assets.xcassets */,
 				821BC6F71F2286E000FAB8AD /* LaunchScreen.storyboard */,
+				828772861F4F605400E4CFB4 /* location.gpx */,
 				821BC6FA1F2286E000FAB8AD /* Info.plist */,
 			);
 			path = FollowMii;
@@ -148,6 +160,57 @@
 				821BC7101F2286E000FAB8AD /* Info.plist */,
 			);
 			path = FollowMiiUITests;
+			sourceTree = "<group>";
+		};
+		828772801F4EAC9500E4CFB4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8287728D1F4FD1EA00E4CFB4 /* Model */,
+				828772851F4EBB6800E4CFB4 /* ViewController */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		828772831F4EBB2D00E4CFB4 /* FunCollectionViewItem */ = {
+			isa = PBXGroup;
+			children = (
+				828772841F4EBB5D00E4CFB4 /* ViewController */,
+				828772801F4EAC9500E4CFB4 /* Map */,
+			);
+			name = FunCollectionViewItem;
+			sourceTree = "<group>";
+		};
+		828772841F4EBB5D00E4CFB4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				82DAB8231F2779220084009F /* FunCollectionViewItemViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		828772851F4EBB6800E4CFB4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				828772811F4EACB800E4CFB4 /* MapViewController.swift */,
+				8287728B1F4FAF5300E4CFB4 /* FunMapViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		828772881F4F622800E4CFB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828772891F4F622800E4CFB4 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8287728D1F4FD1EA00E4CFB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8287728E1F4FD1FF00E4CFB4 /* MyLocation.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		82DAB8111F25F3930084009F /* Schedule */ = {
@@ -190,6 +253,7 @@
 			children = (
 				82DAB81D1F2768130084009F /* Model */,
 				82DAB81C1F2768050084009F /* ViewController */,
+				828772831F4EBB2D00E4CFB4 /* FunCollectionViewItem */,
 			);
 			name = CollectionView;
 			sourceTree = "<group>";
@@ -236,14 +300,6 @@
 				82DAB8211F27724F0084009F /* GradiantView.swift */,
 			);
 			name = ModelView;
-			sourceTree = "<group>";
-		};
-		82DAB8251F27794B0084009F /* CollectionViewItem */ = {
-			isa = PBXGroup;
-			children = (
-				82DAB8231F2779220084009F /* FunCollectionViewItemViewController.swift */,
-			);
-			name = CollectionViewItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +372,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = ZY929FY943;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					821BC6FE1F2286E000FAB8AD = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -358,6 +419,7 @@
 			files = (
 				821BC6F91F2286E000FAB8AD /* LaunchScreen.storyboard in Resources */,
 				821BC6F61F2286E000FAB8AD /* Assets.xcassets in Resources */,
+				828772871F4F605400E4CFB4 /* location.gpx in Resources */,
 				821BC6F41F2286E000FAB8AD /* Main.storyboard in Resources */,
 				82DAB8191F25F73F0084009F /* FunCollectionViewDatas.plist in Resources */,
 			);
@@ -386,10 +448,13 @@
 			files = (
 				82DAB8151F25F5BA0084009F /* FunCollectionDataSources.swift in Sources */,
 				821BC72B1F22FD4900FAB8AD /* FunCollectionViewCell.swift in Sources */,
+				8287728F1F4FD20000E4CFB4 /* MyLocation.swift in Sources */,
 				82DAB8171F25F5D80084009F /* FunCollectionViewData.swift in Sources */,
 				821BC7291F22EC8300FAB8AD /* FunBanner.swift in Sources */,
 				821BC7271F22D1F400FAB8AD /* FunViewController.swift in Sources */,
 				821BC7211F22AFB400FAB8AD /* CheckListTableViewCell.swift in Sources */,
+				828772821F4EACB800E4CFB4 /* MapViewController.swift in Sources */,
+				8287728C1F4FAF5300E4CFB4 /* FunMapViewController.swift in Sources */,
 				82DAB8241F2779220084009F /* FunCollectionViewItemViewController.swift in Sources */,
 				821BC7251F22CDB300FAB8AD /* CheckLists.swift in Sources */,
 				821BC71F1F22AC0F00FAB8AD /* CheckListViewController.swift in Sources */,
