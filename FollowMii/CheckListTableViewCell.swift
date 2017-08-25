@@ -43,15 +43,15 @@ class CheckListTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    override var frame: CGRect{
-        didSet{
-            var newFrame = frame
-            newFrame.origin.x += 10/2
-            newFrame.size.width -= 10
-            newFrame.origin.y += 10
-            newFrame.size.height -= 20
-            super.frame = newFrame
-        }
-    }
+//    override var frame: CGRect{
+//        didSet{
+//            var newFrame = frame
+//            newFrame.origin.x += 10/2
+//            newFrame.size.width -= 10
+//            newFrame.origin.y += 10
+//            newFrame.size.height -= 20
+//            super.frame = newFrame
+//        }
+//    }
 
 }

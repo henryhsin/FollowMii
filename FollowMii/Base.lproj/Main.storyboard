@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -145,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="485.60000000000002" y="139.880059970015"/>
+            <point key="canvasLocation" x="-34" y="140"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="Ned-dX-RGC">
@@ -653,6 +653,7 @@
                                                 <state key="normal" backgroundImage="map"/>
                                                 <connections>
                                                     <action selector="seeMapWithSender:" destination="e00-B6-ZXz" eventType="touchUpInside" id="754-BZ-6MU"/>
+                                                    <segue destination="dvb-fZ-Ce8" kind="show" id="XHG-V6-wu2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Hw-fE-XlL">
@@ -743,6 +744,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aV5-Yg-UqS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4244" y="829.83508245877067"/>
+        </scene>
+        <!--Fun Map View Controller-->
+        <scene sceneID="EUP-P1-dwU">
+            <objects>
+                <viewController id="dvb-fZ-Ce8" customClass="FunMapViewController" customModule="FollowMii" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WBQ-72-N50"/>
+                        <viewControllerLayoutGuide type="bottom" id="wMn-iX-MQR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dl2-2a-QoQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OMp-DD-s3C">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OMp-DD-s3C" firstAttribute="top" secondItem="WBQ-72-N50" secondAttribute="bottom" id="INq-dB-cu9"/>
+                            <constraint firstItem="wMn-iX-MQR" firstAttribute="top" secondItem="OMp-DD-s3C" secondAttribute="bottom" id="JMn-ay-ax4"/>
+                            <constraint firstAttribute="trailing" secondItem="OMp-DD-s3C" secondAttribute="trailing" id="Xht-II-AHm"/>
+                            <constraint firstItem="OMp-DD-s3C" firstAttribute="leading" secondItem="dl2-2a-QoQ" secondAttribute="leading" id="q78-eW-UK4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="OMp-DD-s3C" id="rQG-uN-53F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTY-8L-xfe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5038" y="830"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="R49-Mx-kTA">

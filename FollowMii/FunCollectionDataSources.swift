@@ -8,7 +8,7 @@
 
 import Foundation
 class FunCollectionDataSources: FunCollectionDataSourcesProtocol {
-
+    
     var datas: [FunCollectionViewData] = []
     var immutableDatas: [FunCollectionViewData] = []
     var sections: [String] = []
@@ -30,20 +30,24 @@ class FunCollectionDataSources: FunCollectionDataSourcesProtocol {
                 var datas: [FunCollectionViewData] = []
                 for item in dictArray{
                     if let dict = item as? NSDictionary{
-                        let title = dict["title"] as! String
-                        let startTime = dict["startTime"] as! String
-                        let photo = dict["photo"] as! String
-                        let money = dict["money"] as! Int
-                        let distanceTime = dict["distanceTime"] as! Float
-                        let index = dict["index"] as! Int
-                        let state = dict["state"] as! String
-                        let description = dict["description"] as! String
-                        let subtitle = dict["subtitle"] as! String
-                        let data = FunCollectionViewData.init(title: title, money: money, startTime: startTime, distanceTime: distanceTime, photo: photo, index: index, state: state, subtitle: subtitle, description: description)
-                        if !sections.contains(state){
-                            sections.append(state)
+                        if let title = dict["title"] as? String,
+                            let startTime = dict["startTime"] as? String,
+                            let photo = dict["photo"] as? String,
+                            let money = dict["money"] as? Int,
+                            let distanceTime = dict["distanceTime"] as? Float,
+                            let index = dict["index"] as? Int,
+                            let state = dict["state"] as? String,
+                            let description = dict["description"] as? String,
+                            let subtitle = dict["subtitle"] as? String,
+                            let longitude = dict["longitude"] as? NSNumber,
+                            let latitude = dict["latitude"] as? NSNumber{
+                            let data = FunCollectionViewData.init(name: title, money: money, startTime: startTime, distanceTime: distanceTime, photo: photo, index: index, state: state, subName: subtitle, dataDescription: description, longitude: longitude, latitude: latitude)
+                            if !sections.contains(state){
+                                sections.append(state)
+                            }
+                            datas.append(data)
                         }
-                        datas.append(data)
+                        
                     }
                 }
                 return datas

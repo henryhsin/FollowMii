@@ -130,11 +130,9 @@ extension FunViewController: UICollectionViewDataSource{
 
 extension FunViewController: UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
         if let data = collectionViewDataSource.dataForItemAtIndexPath(indexPath: indexPath){
             performSegue(withIdentifier: "MasterToDetail", sender: data)
         }
-
     }
 }
 
